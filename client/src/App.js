@@ -18,16 +18,14 @@ function App() {
       <div className="logo-area">
   <img src={logo} alt="CADEAU Logo" className="logo-img" />
 </div>
-
-
-        <div className="links">
-          <a href="#">Home</a>
-          <a href="#">Categories</a>
-          <a href="#">Products</a>
-          <a href="#">Reviews</a>
-          <a href="#">🛒</a>
-          <a href="#">👤</a>
-        </div>
+<div className="links">
+  <a href="/">Home</a>
+  <a href="/">Categories</a>
+  <a href="/">Products</a>
+  <a href="/">Reviews</a>
+  <a href="/">🛒</a>
+  <a href="/">👤</a>
+</div>
       </nav>
 
       <section
