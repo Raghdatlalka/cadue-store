@@ -9,9 +9,9 @@ function App() {
   return (
     <div>
       <div className="top-bar">
-      <marquee scrollamount="12">
+     <p className="moving-text">
   Free delivery for orders over ₪250 ✨ Luxury flowers & gifts for every special moment ✨
-</marquee>
+</p>
 </div>
 
       <nav className="navbar">

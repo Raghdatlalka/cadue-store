@@ -287,3 +287,18 @@ body {
 .footer p {
   color: #444;
 }
+
+.moving-text {
+  margin: 0;
+  white-space: nowrap;
+  animation: moveText 12s linear infinite;
+}
+
+@keyframes moveText {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
